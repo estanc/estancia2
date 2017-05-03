@@ -1,0 +1,107 @@
+
+.titleSoliMasInfo{
+     margin-top: 30px;
+     font: 25px Arial;
+      color: #424242;
+    }
+
+  .TitleIcon{ 
+  	text-align: center;
+    font:18px Arial;
+    color: #424242;
+   }
+/*Recuadro azul*/
+   .BlueBox{
+  width:100%;
+  text-align: center;
+  background:#0470AE;
+ 
+  margin-top: 20px;
+}
+.userSa{
+  color: white;
+}
+.userSa1{
+  font: 15px Arial;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+.userSa2{
+  font: 13px Arial;
+}
+   /*Formulario*/
+   .Form{
+  float: right;
+
+  
+   }
+   .TitleForm{
+     text-align: center;
+     background:#0470AE;
+     color: white;
+     font: 17px  Arial;
+     padding-top: 2px;
+ }
+ .ContForm{
+
+ 	background:#EEEDED;
+ 	padding: 10px ;
+ 	padding-right: 10px;
+ }
+ /*CLIENTES*/
+.AlNuCl{
+  margin-top:50px;
+  font: 15px Arial;
+  text-align: center;
+  color:#0470AE;
+
+
+}
+/*Estados con exito con el erp */
+.EstErp{
+  margin-top: 50px;
+  width: 100%;
+  background:#0470AE;
+  padding:10px;
+
+}
+
+.EstadosCol{
+color: white;
+}
+/*<!--DerRes-->
+<!--DerRes-->
+<!--DerRes-->*/
+
+.DerRes{
+  width: 100%;
+  margin-top:  50px;
+
+}
+.imgDerRes{
+ 
+   width: 100%;
+   position: relative;
+}
+.DerResText{
+
+    width: 95%;
+  
+  font:15px Times;
+    color: white; 
+    text-align: right;
+   
+    position: absolute;
+    bottom: 0;
+    
+  
+}
+.DerResTextSu{
+    width: 100%;
+    font:15px Times;
+    color: white; 
+    text-align: right;
+    position: absolute;
+    top: 10px;
+}
+

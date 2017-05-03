@@ -1,0 +1,187 @@
+*{
+	padding: 0;
+	margin:0;
+}
+.QuienesSomos{
+	width: 100%;
+	
+}
+/*<!--Redes Socilaes-->
+<!--Redes Socilaes-->
+<!--Redes Socilaes-->*/
+
+.red {
+    position: fixed;
+    top: 200px;
+    z-index: 100;
+    left: 0;
+}
+
+#facebook a {
+    background: #3b5998;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    width: 55px;
+}
+
+
+#facebook a:hover {
+    background: #4285f4;
+    padding: 10px 40px;
+}
+
+#youtube a {
+    background: #bb0000;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    width: 55px;
+}
+
+#youtube a:hover {
+    background: #ea4335;
+    padding: 10px 40px;
+}
+
+#twitter a {
+    background: #55acee;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    width: 55px;
+}
+
+#twitter a:hover {
+    background: #00bcf2;
+    padding: 10px 40px;
+}
+
+/*<!--HISTORIA,MISION Y VISION-->
+<!--HISTORIA,MISION Y VISION-->
+<!--HISTORIA,MISION Y VISION-->*/
+.ImgPrNa,
+.ImgHMV,
+.ImgQS{
+	width: 100%;
+	position:relative; 
+}
+.TitlePrNa,
+.TitleHMV,
+.TitleQS{
+	width: 100%;
+	background: #0B4C5F;
+	font:25px Times;
+    color: white; 
+    text-align: center;
+    padding: 18px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.7;
+}
+.PrNa,
+.DESPrNa,
+.TableHMV,
+.TableQuiSomos{
+	margin-top: 50px;
+	width: 100%;
+}
+.DesPrNa,
+.TableHMVLi,
+.TableQuiSomosLi{
+	
+	  font: 14px Arial;
+      color: #585858;
+}
+/*<!--Presencia Nacional-->
+<!--Presencia Nacional-->
+<!--Presencia Nacional-->*/
+.PrNa{
+	width: 100%;
+}
+.ImpPrePrNa{
+    padding: 50px;
+    text-align: left;
+    color: #0174DF;
+}
+.TableEsPrNa{
+	padding-top: 100px;
+}
+.TableEsPrNaEs{
+	padding: 10px;
+    text-align: center;
+    color: #0174DF;
+}
+/*<!-- DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP-->
+<!-- DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP-->
+<!-- DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP-->*/
+.DePoMbErp{
+	width: 100%;
+	margin-top: 50px;
+}
+.DePoMbErpPo{
+	font:22px  Arial;
+	text-align: center;
+	color:#1C1C1C; 
+}
+.DePoMbErpInfor{
+	text-align: center;
+	font:25px Arial;
+	color: #848484;
+}
+.buttDePoMbErp{
+	padding-top: 50px;
+text-align: center;
+}
+
+.ImgDePoMbErp{
+	padding-top: 50px;
+}
+
+/*<!--DerRes-->
+<!--DerRes-->
+<!--DerRes-->*/
+
+.DerRes{
+	width: 100%;
+	margin-top:  50px;
+
+}
+.imgDerRes{
+ 
+   width: 100%;
+   position: relative;
+}
+.DerResText{
+
+    width: 95%;
+	
+	font:15px Times;
+    color: white; 
+    text-align: right;
+   
+    position: absolute;
+    bottom: 0;
+    
+  
+}
+.DerResTextSu{
+     width: 100%;
+  
+  font:15px Times;
+    color: white; 
+    text-align: right;
+   
+    position: absolute;
+   top: 10px;
+}
+.DerResTextSu{
+     width: 100%;
+  
+  font:15px Times;
+    color: white; 
+    text-align: right;
+   
+    position: absolute;
+   top: 10px;
+}

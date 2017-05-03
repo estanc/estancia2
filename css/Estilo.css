@@ -1,0 +1,592 @@
+ *{padding: 0;margin: 0;}
+header{
+
+  min-height: 30px;
+}
+
+/*CSS de la navbar*/
+.btnNav{
+  color:#58ACFA;
+  padding-left: 30px; 
+  padding-top: 30px;
+}
+.btnInicio{
+
+}
+
+.navbar-default {
+  background-color: white;
+  border-color: ;
+}
+.navbar-default .navbar-brand {
+  color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-default .navbar-text {
+  color: #777;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-default .navbar-link {
+  color: #777;
+}
+.navbar-default .navbar-link:hover {
+  color: #333;
+}
+.navbar-default .btn-link {
+  color: #777;
+}
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+  color: #333;
+}
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+  color: #ccc;
+}
+.red {
+    position: fixed;
+    top: 200px;
+    z-index: 100;
+    left: 0;
+}
+
+#facebook a {
+    background: #3b5998;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    width: 55px;
+}
+
+
+#facebook a:hover {
+    background: #4285f4;
+    padding: 10px 40px;
+}
+
+#youtube a {
+    background: #bb0000;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    width: 55px;
+}
+
+#youtube a:hover {
+    background: #ea4335;
+    padding: 10px 40px;
+}
+
+#twitter a {
+    background: #55acee;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    width: 55px;
+}
+
+#twitter a:hover {
+    background: #00bcf2;
+    padding: 10px 40px;
+}
+/* CSS de los botones dropwon*/
+/* CSS de los botones dropwon*/
+/* CSS de los botones dropwon*/
+.dropbtn {
+    background-color: transparent;
+    color: transparent;
+    padding: 16px;
+    font-size: 13px Verdana;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+}
+/*SLIDESHOW----------------*/
+.TitleSHSM {
+    font: 25px Arial;
+    color:black;
+    text-align: center;
+}
+
+
+/*MODALES*/
+/*MODALES*/
+/*MODALES*/
+.EncaMo{
+  width: 100%;
+  background: #0B4C5F;
+  
+}
+.TitleMo{
+
+  color: white;
+  font:25px Arial;
+  padding: 8px;
+  
+
+}
+
+
+.TitleTableMoCon{
+  margin:25px;
+  margin-left: 25px;
+}
+
+.TitleTableMo{
+margin-top: 10px;  
+padding: 10px;
+color: #424242;
+font: 17PX Arial;
+background: #EEEDED;
+}
+.LetraTableMoCon{
+font: 15PX Arial;
+color:#585858;
+padding: 5px;
+
+}
+
+
+
+/*Piramide*/
+/*Piramide*/
+/*Piramide*/
+.piramide{
+  width: 100%;
+  }
+
+
+.textPir{
+ font: 15px Arial;
+ color:#6E6E6E;
+}
+.SoftErpTd{
+  padding-top: 15px;
+ color: #0489B1; 
+ text-align: center;
+ font: 30px Arial;
+}
+
+.buttonsERP1{
+  margin: 30px;
+  text-align: center;
+ 
+}
+
+
+
+
+.buttonss {
+  color:#0489B1;
+  border:1px solid #0489B1;
+  font:15px Arial;
+  text-decoration: none;
+ 
+  display: inline-block;
+ 
+  border-radius:10px ;
+  text-align: center
+
+}
+
+.buttonss:hover {
+  opacity: .8;
+}
+
+.eso{
+  margin: 0 5px;
+}
+/*Estadisticas de mba erp*/
+/*<!--visible en md y lg-->*/ 
+.EstadErpMba3{
+  width:100%;
+  background:#0470AE;
+  display: block;
+  margin-top: 50px;
+}
+.EstadErpMba3FoLet{
+  color: white;
+   font: 25px Arial;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+/*<!--visible en xs y sm-->*/
+.EstadErpMba3FoLetXS{
+   color: white;
+   font: 11px Arial;
+ 
+} 
+
+/*caracteristicas del erp*/
+/*caracteristicas del erp*/
+/*caracteristicas del erp*/
+.PrinVentajas{
+    width: 100%;
+
+    background:#EEEDED;
+    padding: 80px 10px;
+    display: inline-block;
+    
+   
+}
+
+.PrinVent{
+   text-align: center;
+ 
+}
+.imgPrvent{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.prinVentP{
+  font: 25PX Arial;
+  color: #424242;
+  margin-bottom: 0;
+}
+.prinVentP2{
+  font: 25PX Arial;
+  color: #424242;
+  margin-left: 3px;
+}
+.textPventaja{
+    font:15px Arial;
+    color: #848484;
+    text-align: left;
+    padding-left:  10px;
+}
+.butttonPvn{
+  margin-top: 20px;
+}
+.butttonPvn2{
+  margin-top: 36px;
+}
+.butttonPvn3{
+  margin-top: 51px;
+}
+/*tamaño de empresa*/
+/*tamaño de empresa*/
+/*tamaño de empresa*/
+.TamañoEmp{
+  width: 100%;
+  background:white;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.textTam{
+  text-align: center;
+  font: 25px Arial;
+  color: #424242;
+}
+
+.VerERP{
+
+}
+.mba3-editions{
+  width: 100%;
+  background:#EEEDED;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.ERPNec{
+  padding-top: 71px;
+  padding-left: 10px;
+  font:25px Arial;
+  color: #424242;
+
+}
+.ERPNecArt{
+  padding-left: 10px;
+  font:15px Arial;
+    color: #848484;
+}
+/*Crece con nosotros*/
+.CreceNosotros{
+  padding-bottom: 100px;
+}
+.CreNosTitle{
+   font:25px Arial;
+  color: #424242;
+
+}
+.CreNos{
+  color: #848484;
+  padding-top: 40px;
+}
+.CreNosPa{
+    font:15px Arial;
+    color: #848484;
+}
+.PicVererp{
+    width: 100%;
+    background:#EEEDED;
+
+  
+  
+}
+
+/* Clientes Importantes*/
+/* Clientes Importantes*/
+/* Clientes Importantes*/
+
+#0470AE
+.ClieIm{
+  width: 100%;
+}
+.TitleClieIm{
+  text-align: center;
+  font: 25px Arial;
+  color:#0470AE; 
+}
+
+
+/*testimonios*/
+/*testimonios*/
+/*testimonios*/
+
+.testimonio{
+  width: 100% ;
+}
+
+.titleTes{
+  text-align: center;
+  font:25px Arial;
+  color: #424242;
+
+}
+/*APPS moviles*/
+/*APPS moviles*/
+/*APPS moviles*/
+
+.APPmovil{
+  width: 100%;
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#88bfe8+3,ffffff+99 */
+background: #88bfe8; /* Old browsers */
+background: -moz-linear-gradient(top,  #88bfe8 3%, #ffffff 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #88bfe8 3%,#ffffff 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to top  #88bfe8 3%,#ffffff 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88bfe8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.MologoRight{
+padding-top: 50px;
+}
+.TextRightMovil{
+  font:19px Arial;
+    color: #585858;
+}
+/*Segundo nivel de APPS moviles*/
+.ModERP{
+  padding-top: 50px;
+  font:15px Arial;
+  color: #585858;
+}
+
+/*Tercer nivel de APPS moviles*/
+.ErpSmPh{
+  padding-top: 50px;
+}
+/*Cuarto nivel de APPS moviles*/
+.btInf{
+  text-align: center;
+  padding-top: 50px;
+}
+
+/*Nueva plataforma*/
+.NuPlaNeg{
+  width: 100%;
+  background:#FAFAFA;
+  margin-top: 90px;
+  display: inline-block;
+  
+}
+.textNuPlaNeg{
+   margin-top: 90px;
+   text-align: center;
+   font:25px Arial;
+   color: #424242;
+}
+.LogoMBANuPl{
+  margin-top: 50px;
+}
+.textMbaPla{
+  text-align: left;
+  padding: 50PX ;
+  font:15px Arial;
+  color: #585858;
+}
+
+/*QlikView-->
+<!--QlikView-->
+<!--QlikView-->*/
+.QlikView{
+  width: 100%;
+
+
+}
+.QlikviewRow{
+  margin-top: 80px;
+}
+.InNeQl{
+  font:35px Arial;
+  color: #424242;
+
+  text-align: center;
+}
+.ImgPannel{
+  background:#EEEDED;
+}
+.TextQlikView{
+   padding-top: 20px;
+  padding-left: 10px;
+  font:25px Arial;
+  color: #424242;
+
+}
+.TextQlikViewP{
+  padding-left: 10px;
+  font:15px Arial;
+  color: #585858
+}
+.EnNeg{
+   padding-top: 35px;
+  padding-left: 10px;
+  font:25px Arial;
+  color: #424242;
+
+}
+.EnNegP{
+  padding-left: 10px;
+  font:15px Arial;
+  color: #585858
+}
+.ComEnNeg{
+  background:#EEEDED;
+} 
+/*<!--Potencial de Mba erp-->
+<!--Potencial de Mba erp-->
+<!--Potencial de Mba erp-->*/
+.PoMe{
+  width: 100%;
+  margin-top: 80px;
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
+background: rgb(245,246,246); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(184,186,198,1) 49%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to top, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+
+
+}
+.PomeTitle{
+ text-align: center;
+  font: 35px Arial;
+  color: #424242;
+}
+.VerERP{
+  padding: 50px;
+}
+
+
+
+ 
+      
+
+
+       

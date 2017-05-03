@@ -1,0 +1,117 @@
+.ImgAl{
+		width: 100%;
+	position:relative; 
+}
+
+.TitleAl{
+		width: 100%;
+	background: #0B4C5F;
+	font:25px Times;
+    color: white; 
+    text-align: center;
+    padding: 18px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+/*Nuestros asociados de negocios*/
+
+.NuesAsoNe{
+  width: 100%;
+
+  background:#EEEDED;
+  margin-top: 40px;
+}
+.TitlevNuesAsoNe{
+	 text-align: center;
+     font: 15px Arial;
+     color: #424242;
+}
+/*Redes Sociales*/
+.red {
+    position: fixed;
+    top: 200px;
+    z-index: 100;
+    left: 0;
+}
+
+#facebook a {
+    background: #3b5998;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    width: 55px;
+}
+
+
+#facebook a:hover {
+    background: #4285f4;
+    padding: 10px 40px;
+}
+
+#youtube a {
+    background: #bb0000;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    width: 55px;
+}
+
+#youtube a:hover {
+    background: #ea4335;
+    padding: 10px 40px;
+}
+
+#twitter a {
+    background: #55acee;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    width: 55px;
+}
+
+#twitter a:hover {
+    background: #00bcf2;
+    padding: 10px 40px;
+}
+
+
+
+/*<!--DerRes-->
+<!--DerRes-->
+<!--DerRes-->*/
+
+.DerRes{
+    width: 100%;
+    margin-top:  50px;
+
+}
+.imgDerRes{
+ 
+   width: 100%;
+   position: relative;
+}
+.DerResText{
+
+    width: 95%;
+    
+    font:15px Times;
+    color: white; 
+    text-align: right;
+   
+    position: absolute;
+    bottom: 0;
+    
+  
+}
+.DerResTextSu{
+     width: 100%;
+  
+  font:15px Times;
+    color: white; 
+    text-align: right;
+   
+    position: absolute;
+   top: 10px;
+}

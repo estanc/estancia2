@@ -1,0 +1,169 @@
+/*TITULO DE LA PAGINA*/
+.TitleTableVerErp{
+    text-align: center;
+    font:25px Arial;
+    color: #424242;
+    margin-top: 50px;
+}
+
+.FondTable{
+    background: #EEEDED;
+    color: #424242;
+    font: 15px Arial;
+}
+.LicErp{
+    color: #0470AE;
+    text-align: center;
+}
+.AligRenglon{
+    text-align: center;
+}
+.Subtitletable{
+    background: #EEEDED;
+
+}
+.ColSubtitletable{
+    color: #424242;
+    font: 20px Arial;
+}
+.LetrReng{
+    color: #424242;
+    font: 15px Arial;
+}
+.AlingIcon{
+    color: #424242;
+    text-align: center;
+    padding-top: 10px;
+    
+   
+
+}
+/*<!--Redes Socilaes-->
+<!--Redes Socilaes-->
+<!--Redes Socilaes-->*/
+
+.red {
+    position: fixed;
+    top: 200px;
+    z-index: 100;
+    left: 0;
+}
+
+#facebook a {
+    background: #3b5998;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    width: 55px;
+}
+
+
+#facebook a:hover {
+    background: #4285f4;
+    padding: 10px 40px;
+}
+
+#youtube a {
+    background: #bb0000;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    width: 55px;
+}
+
+#youtube a:hover {
+    background: #ea4335;
+    padding: 10px 40px;
+}
+
+#twitter a {
+    background: #55acee;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    width: 55px;
+}
+
+#twitter a:hover {
+    background: #00bcf2;
+    padding: 10px 40px;
+}
+/*conocer erp*/
+.ConErp{
+      background:#EEEDED;
+      width: 100%;
+}
+/*Descubrir mba erp */
+.DesMbErpConErp{
+    text-align: center;
+    padding: 60px;
+      color: #424242;
+    font: 25px Arial;
+}
+/*Estadisticas de erp*/
+.EstaErp{
+     width:100%;
+     background:#0470AE;
+     display: block;
+     padding: 30px;
+}
+.TitulosEstaErp{
+    font: 20px Arial;
+    color: white;
+    text-align: center;
+}
+.EstErp{
+    margin-top: 20px;
+}
+.TitulosEstErp{
+    font: 16px Arial;
+    color: white;
+}
+
+/*<!--DerRes-->
+<!--DerRes-->
+<!--DerRes-->*/
+
+.DerRes{
+    width: 100%;
+    margin-top:  50px;
+
+}
+.imgDerRes{
+ 
+   width: 100%;
+   position: relative;
+}
+.DerResText{
+
+    width: 95%;
+    
+    font:15px Times;
+    color: white; 
+    text-align: right;
+   
+    position: absolute;
+    bottom: 0;
+    
+  
+}
+.DerResTextSu{
+     width: 100%;
+  
+  font:15px Times;
+    color: white; 
+    text-align: right;
+   
+    position: absolute;
+   top: 10px;
+}
+.DerResTextSu{
+     width: 100%;
+  
+  font:15px Times;
+    color: white; 
+    text-align: right;
+   
+    position: absolute;
+   top: 10px;
+}

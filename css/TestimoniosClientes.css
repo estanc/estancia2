@@ -1,0 +1,47 @@
+/*<!--DerRes-->
+<!--DerRes-->
+<!--DerRes-->*/
+
+.DerRes{
+	width: 100%;
+	margin-top:  50px;
+
+}
+.imgDerRes{
+ 
+   width: 100%;
+   position: relative;
+}
+.DerResText{
+
+    width: 95%;
+	
+	font:15px Times;
+    color: white; 
+    text-align: right;
+   
+    position: absolute;
+    bottom: 0;
+    
+  
+}
+.DerResTextSu{
+     width: 100%;
+  
+  font:15px Times;
+    color: white; 
+    text-align: right;
+   
+    position: absolute;
+   top: 10px;
+}
+.DerResTextSu{
+     width: 100%;
+  
+  font:15px Times;
+    color: white; 
+    text-align: right;
+   
+    position: absolute;
+   top: 10px;
+}
