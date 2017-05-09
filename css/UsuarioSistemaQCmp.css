@@ -1,0 +1,40 @@
+.EresUsuario{
+	margin-top: 50px;
+}
+.TitleEresUsuario{
+	text-align: center;
+  font: 25px Arial;
+  color: #424242;
+}
+.TextEresUsuario{
+	 font:15px Arial;
+     color: #848484;
+}
+.ImgVerEresUsuario{
+	margin-top: 50px;
+}
+.GraPro{
+	margin-top: 50px;
+
+    
+}
+.TitleGraPro{
+    text-align: center;
+	font: 25px Arial;
+	color: #424242;
+}
+.SubTitleGraPro{
+	margin-top: 50px;
+	text-align: center;
+	font: 20px Arial;
+	color: #424242;
+}
+.TextGraPro{
+		 font:15px Arial;
+         color: #848484;
+         margin-top: 30px;
+}
+.ComPro{
+	font:15px Arial;
+    margin-top: 30px;
+}
