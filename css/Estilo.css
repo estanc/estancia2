@@ -302,13 +302,15 @@ padding: 5px;
 .EstadErpMba3FoLet{
   color: white;
    font: 25px Arial;
-  margin-top: 10px;
-  margin-bottom: 1px;
+  text-align: center;
+  padding-top: 10px;
 }
 /*<!--visible en xs y sm-->*/
 .EstadErpMba3FoLetXS{
    color: white;
    font: 11px Arial;
+   text-align: center;
+   padding-top: 10px;
  
 } 
 
@@ -317,48 +319,99 @@ padding: 5px;
 /*caracteristicas del erp*/
 .PrinVentajas{
     width: 100%;
-
     background:#EEEDED;
-    padding: 80px 10px;
     display: inline-block;
+    padding: 50px;
     
    
 }
 
 .PrinVent{
    text-align: center;
+   margin-top: 10px;
  
 }
-.imgPrvent{
+
+
+.TitlePriVen{
+  font: 25PX Arial;
+  color: #424242;
+  
+}
+.TitlePriVenXS{
+  font: 20PX Arial;
+  color: #424242;
+}
+.
+.butttonPvn{
   text-align: center;
-  margin-bottom: 50px;
 }
 
-.prinVentP{
+
+
+
+
+.TecnAvanz{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.TitleTecnAvanz{
   font: 25PX Arial;
   color: #424242;
-  margin-bottom: 0;
+  
 }
-.prinVentP2{
+.TitleTecnAvanzXS{
+font: 20PX Arial;
+  color: #424242;
+}
+.textTecnAvanz{
+ font:15px Arial;
+    color: #424242;
+}
+.textTecnAvanzXS{
+  font:11px Arial;
+    color: #424242;
+}
+.buttonTecnAvanz{
+   text-align: center;
+   margin-top: 17px;
+}
+
+
+
+.ContFact{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.titleContFact{
   font: 25PX Arial;
   color: #424242;
-  margin-left: 3px;
 }
-.textPventaja{
-    font:15px Arial;
-    color: #848484;
-    text-align: left;
-    padding-left:  10px;
+.titleContFactXS{
+  font: 20PX Arial;
+  color: #424242;
 }
-.butttonPvn{
-  margin-top: 20px;
+.textContFact{
+  font:15px Arial;
+  color: #424242;
 }
-.butttonPvn2{
-  margin-top: 36px;
+.textContFactXS{
+  font:11px Arial;
+  color: #424242;
 }
-.butttonPvn3{
-  margin-top: 51px;
+.buttonContFact{
+  text-align: center;
+  margin-top: 17px;
 }
+.buttonContFactXS{
+  text-align: center;
+  margin-top: 17px;
+}
+
+
 /*tamaño de empresa*/
 /*tamaño de empresa*/
 /*tamaño de empresa*/
@@ -375,7 +428,7 @@ padding: 5px;
 }
 
 .VerERP{
-
+width: 100%;
 }
 .mba3-editions{
   width: 100%;
@@ -488,6 +541,14 @@ padding-top: 50px;
   text-align: center;
   padding-top: 50px;
 }
+.btInfxs{
+   text-align: center;
+  padding-top: 50px;
+}
+.VerERPPoMe{
+  margin-top: 50px;
+
+}
 
 /*Nueva plataforma*/
 .NuPlaNeg{
@@ -579,9 +640,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', end
  text-align: center;
   font: 35px Arial;
   color: #424242;
-}
-.VerERP{
-  padding: 50px;
 }
 
 
