@@ -445,6 +445,7 @@ font: 20PX Arial;
 
 .VerERP{
 width: 100%;
+margin-top: 50px;
 }
 .mba3-editions{
   width: 100%;
@@ -491,23 +492,15 @@ width: 100%;
 }
 
 /* Clientes Importantes*/
-/* Clientes Importantes*/
-/* Clientes Importantes*/
-
-#0470AE
 .ClieIm{
   width: 100%;
+  margin-top: 50px;
 }
 .TitleClieIm{
   text-align: center;
   font: 25px Arial;
   color:#0470AE; 
 }
-
-
-
-/*APPS moviles*/
-/*APPS moviles*/
 /*APPS moviles*/
 
 .APPmovil{
