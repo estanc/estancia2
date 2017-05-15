@@ -11,10 +11,12 @@
     <meta name="viewport" content="width=device-width">
 <script  src="js/jquery.js"></script>
 <script  src="js/bootstrap.min.js"></script>
+ <script src="js/arriba.js"></script> 
 </head>
 <body>
+<!--Header-->
 <header >
-  <nav class="navbar navbar-default " >
+  <nav class="navbar navbar-default navbar-fixed-top" >
              <div class="container">
                <!-- Encabezado del menu-->
                 <div class="navbar-header">
@@ -25,67 +27,64 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   </button>
-                  <img clas="img-brand img-responsive " src="img/logoMBA3-2014.jpg">
+                  <img clas=" col-md-4 img-brand img-responsive " src="img/logoMBA3-2014.jpg">
                 </div >
 
                 <!--Elementos del menu-->
                 <div  class="collapse  navbar-collapse" id="btn" >
                       <ul class="nav navbar-nav">
-                        <li><a style="color:#58ACFA;padding-left: 30px; padding-top: 30px;" href="C:\Users\Julio\Documents\Plantillas personalizadas de Office\proyecto estancia2\Index.html">Inicio</a></li>
+                        <li><a class="btnNav" href="file:///D:/estancia2/Index.html"> <span class="btnInicio">Inicio</span></a></li>
                         
                         <li class="dropdown">
-                        <a class="dropbtn"  style=" padding-left: 10px; padding-top: 30px;" >Empresa</a>
+                        <a class="dropbtn"  class="btnNav">Empresa</a>
                                   <div class="dropdown-content">
-                                    <a href="C:\Users\Julio\Documents\Plantillas personalizadas de Office\proyecto estancia2\EmpresaQuienesSomos.html" >¿Quiénes somos?</a>
-                                    <a href="C:\Users\Julio\Documents\Plantillas personalizadas de Office\proyecto estancia2\presenciaNacional.html">Presencia Nacional</a>
-                                    <a href="C:\Users\Julio\Documents\Plantillas personalizadas de Office\proyecto estancia2\EmpAlianzas.html">Alianzas</a>
-                                    <a href="C:\Users\Julio\Documents\Plantillas personalizadas de Office\proyecto estancia2\aviso-de-privacidad.html">Aviso de Privacidad</a>
+                                    <a href="file:///D:/estancia2/EmpresaQuienesSomos.html" ><p class="btnDrop">¿Quiénes somos?</p></a>
+                                    <a href="file:///D:/estancia2/presenciaNacional.html"><p class="btnDrop">Presencia Nacional</p></a>
+                                    <a href="file:///D:/estancia2/EmpAlianzas.html"><p class="btnDrop">Alianzas</p></a>
+                                    <a href="file:///D:/estancia2/aviso-de-privacidad.html"><p class="btnDrop">Aviso de Privacidad</p></a>
                              
                                   </div>
                         </li>
 
                         <li class="dropdown">
-                        <a class="dropbtn"  style=" padding-left: 10px; padding-top: 30px;" >Soluciones ERP</a>
+                        <a class="dropbtn" class="btnNav">Soluciones ERP</a>
                                   <div class="dropdown-content">
-                                    <a href="C:\Users\Julio\Documents\Plantillas personalizadas de Office\proyecto estancia2\SolucioneERPPoque.html" >¿Por qué MBA3 ERP?</a>
-                                    <a href="#">Tecnología Avanzada</a>
-                                    <a href="#" >Areas del Sistema</a>
+                                    <a href="file:///D:/estancia2/SolucioneERPPoque.html" ><p class="btnDrop">¿Por qué MBA3 ERP?</p> </a>
+                                    <a href="file:///D:/estancia2/tecnologiaAvanzada.html"><p class="btnDrop">Tecnología Avanzada</p></a>
+                                    <a href="file:///D:/estancia2/SolucioneERPAreasSistema.html" ><p class="btnDrop">Areas del Sistema</p></a>
                                     
                              
                                   </div>
                         </li>
 
                          <li class="dropdown">
-                        <a class="dropbtn"  style=" padding-left: 10px; padding-top: 30px;" >Clientes</a>
+                        <a class="dropbtn" class="btnNav">Clientes</a>
                                   <div class="dropdown-content">
-                                    <a href="#" >Nuestros Clientes</a>
-                                    <a href="#">Testimonios de Satisfaccion-cartas</a>
+                                    <a href="file:///D:/estancia2/NuestrosClientiesClienties.html" ><p class="btnDrop">Nuestros Clientes</p></a>
+                                    <a href="file:///D:/estancia2/TestimoniosClientes.html"><p class="btnDrop">Testimonios de Satisfaccion-cartas</p></a>
                              
                                   </div>
                         </li>
 
                          <li class="dropdown">
-                        <a class="dropbtn"  style=" padding-left: 10px; padding-top: 30px;" >Quiero Comprar</a>
+                        <a class="dropbtn" class="btnNav"  >Quiero Comprar</a>
                                   <div class="dropdown-content">
-                                    <a href="#" >Soliccita más información</a>
-                                    <a href="#">Precios para Licenciamiento/Compra</a>
-                                    <a href="#">¿Eres usuario de otro sistema?</a>
+                                    <a href="file:///D:/estancia2/SolicitarMasInfoQuieroCom.html" ><p class="btnDrop">Solicita más información</p></a>
+                                    <a href="file:///D:/estancia2/PreLanzaQuieroComp.html"><p class="btnDrop">Precios para Licenciamiento/Compra</p></a>
+                                    <a href="file:///D:/estancia2/UsuarioSistemaQCmp.html"><p class="btnDrop">¿Eres usuario de otro sistema?</p></a>
                                   </div>
                         </li>
 
                          <li class="dropdown">
-                        <a class="dropbtn"  style=" padding-left: 10px; padding-top: 30px;" >Blog</a>
-                                  <div class="dropdown-content">
-                                  
-                             
-                                  </div>
+                        <a href=""  class="btnNav"  >Blog</a>
+                                
                         </li>
 
                          <li class="dropdown">
-                        <a class="dropbtn"  style=" padding-left: 10px; padding-top: 30px;" >Contacto</a>
+                        <a class="dropbtn"  class="btnNav"  >Contacto</a>
                                   <div class="dropdown-content">
-                                    <a href="#" >Quiero Comprar</a>
-                                    <a href="#">Datos de Contacto</a>
+                                    <a href="file:///D:/estancia2/SolicitarMasInfoQuieroCom.html"> <p class="btnDrop">Quiero Comprar</p></a>
+                                    <a href="file:///D:/estancia2/contacto.html"><p class="btnDrop">Datos de Contacto</p></a>
                              
                                   </div>
                         </li>
@@ -97,11 +96,9 @@
             </div>
     </nav>
 </header>
-<!--Redes Socilaes-->
-<!--Redes Socilaes-->
-<!--Redes Socilaes-->
 
-   <div class="red">
+<!--Redes Socilaes-->
+ <div class="red">
         <div id="facebook">
             <a href="#" class="fa fa-facebook"></a>
         </div>
@@ -112,195 +109,226 @@
             <a href="#" class="fa fa-twitter"></a>
         </div>
     </div>
-<!--QUIENES SOMOS-->
-<!--QUIENES SOMOS-->
-<!--QUIENES SOMOS-->
-<section class="QuienesSomos">
+
+
+<!--Recuadro de Quienes somos -->
+<section class="QuienesSomos ">
 			<div class="container">
+       <div class="col-xs-12 col-sm-12 col-md-12">
+         
+         <div class=" FondoQS row ">
+             <p class="TitleQS">QUIÉNES SOMOS</p>
+         </div>
+         
+          <div class="TableQuiSomos  row">
+             <div class="table-responsive">
+             <table class=" table table-hover table-condensed">
+                <tr>
+            
+                  <td ><div  class="TableQuiSomosLi" > <p class=" glyphicon glyphicon-globe"></p></div> </td>
+                  <td ><p class="TableQuiSomosLi">MBA3 es una empresa con m&aacutes de 20 años en el mercado. Somos una Empresa Internacional con presencia en 8 países de Latinoam&eacuterica. </p> </td>
+                </tr>
 
-					<div class=" ImgQS row">
-						<img src="img/quienes-somos.jpg" class=" img-responsive">
-						<p class="TitleQS">QUI&Eacute;NES SOMOS</p>
-					</div>
-					<div class="TableQuiSomos  row">
-					<div class="table-responsive">
-				    <table class=" table table-hover table-condensed">
-					<tr >
-						
-						<td ><div  class="TableQuiSomosLi" > <p class=" glyphicon glyphicon-globe"></p></div> </td>
-						<td ><p class="TableQuiSomosLi">MBA3 es una empresa con m&aacutes de 20 años en el mercado. Somos una Empresa Internacional con presencia en 8 países de Latinoam&eacuterica. </p> </td>
-					</tr>
+                <tr>
+            
+                  <td ><div  class="TableQuiSomosLi" > <p class="glyphicon glyphicon-wrench"></p></div> </td>
+                  <td><p class="TableQuiSomosLi"> Ofrecemos Servicios y Soporte de Nivel Mundial.</p></td>
+                </tr>
 
-					<tr>
-						
-						<td ><div  class="TableQuiSomosLi" > <p class="glyphicon glyphicon-wrench"></p></div> </td>
-						<td><p class="TableQuiSomosLi"> Ofrecemos Servicios y Soporte de Nivel Mundial.</p></td>
-					</tr>
+                <tr>
+            
+                  <td ><div  class="TableQuiSomosLi" > <p class="glyphicon glyphicon-send"></p></div> </td>
+                  <td><p class="TableQuiSomosLi" >Nos especializamos en atender todo rango de empresas con soluciones diseñadas y dirigidas para cada segmento: MBA3 Avant Edition para Pequeñas y Medianas Empresas, as&iacute como nuestro producto principal: MBA3 Enterprise Edition para Grandes Empresas. </p> </td>
+                </tr>
 
-					<tr >
-						
-						<td ><div  class="TableQuiSomosLi" > <p class="glyphicon glyphicon-send"></p></div> </td>
-						<td><p class="TableQuiSomosLi" >Nos especializamos en atender todo rango de empresas con soluciones diseñadas y dirigidas para cada segmento: MBA3 Avant Edition para Pequeñas y Medianas Empresas, as&iacute como nuestro producto principal: MBA3 Enterprise Edition para Grandes Empresas. </p> </td>
-					</tr>
-
-					<tr>
-						
-						<td ><div  class="TableQuiSomosLi" > <p class="glyphicon glyphicon-flag"></p></div></td>
-						<td><p class="TableQuiSomosLi">MBA3 pertenece al Grupo Alfa International Technologies en Estados Unidos.</p> </td>
-					</tr>
-				</table>
-					</div>	
-					</div>
-			 	
-			</div>
+                 <tr>
+            
+                  <td ><div  class="TableQuiSomosLi" > <p class="glyphicon glyphicon-flag"></p></div></td>
+                  <td><p class="TableQuiSomosLi">MBA3 pertenece al Grupo Alfa International Technologies en Estados Unidos.</p> </td>
+                 </tr>
+           
+           </table>
+           </div>  
+        </div>
+      </div>
+	 </div>
 </section>
 
-<!--HISTORIA,MISION Y VISION-->
-<!--HISTORIA,MISION Y VISION-->
-<!--HISTORIA,MISION Y VISION-->
+<!-- Recuadro de HISTORIA,MISION Y VISION-->
+
 <section class="HiMiVi ">
    <div class="container">
-   	<div class="ImgHMV row">
-     <img src="img/MisionVisionHis.jpg" class="img-responsive">
-     <p class="TitleHMV">HISTORIA,MISI&Oacute;N Y VISI&Oacute;N</p>
-    </div>
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        
+            <div class="FondoHMV row">
+              <p class="TitleHMV">HISTORIA,MISIÓN Y VISI&Oacute;N</p>
+            </div>
 
     <div class="TableHMV  row">
-					<div class="table-responsive">
-				    <table class=" table table-hover table-condensed">
-					<tr >
-						
-						
-						<td ><p class="TableHMVLi ">HISTORIA<br> <br> 
+      <div class="table-responsive">
+        <table class=" table table-hover table-condensed">
+              <tr >
+                 <td ><p class="TableHMVLi ">HISTORIA<br> <br> 
 
-							MBA3 SOFTWARE SOLUTIONS fue constituida en el año 1998, con el objeto de ofrecer soluciones empresariales ERP, pero específicamente desarrolladas para el mercado Latinoamericano, ya que las soluciones de ERP tradicionales ofertadas en nuestros mercados, son traducciones o tropicalizaciones de sistemas estadounidenses o europeos, mismos que no se adaptan a la realidad, requerimientos, presupuesto e infraestructuras de la empresa pequeña y mediana en Latinoamérica. </p> </td>
-					</tr>
+                  MBA3 SOFTWARE SOLUTIONS fue constituida en el año 1998, con el objeto de ofrecer soluciones empresariales ERP, pero específicamente desarrolladas para el mercado Latinoamericano, ya que las soluciones de ERP tradicionales ofertadas en nuestros mercados, son traducciones o tropicalizaciones de sistemas estadounidenses o europeos, mismos que no se adaptan a la realidad, requerimientos, presupuesto e infraestructuras de la empresa pequeña y mediana en Latinoamérica. </p> </td>
+              </tr>
 
-					<tr>
-						
-						
-						<td><p class="TableHMVLi">MISIÓN<br> <br> 
+              <tr>
+                <td><p class="TableHMVLi">MISIÓN<br> <br> 
 
-Contribuir en la transformación de la forma de trabajar de nuestros clientes, proporcionándoles herramientas y soluciones que permitan consolidar el crecimiento y desarrollo de su empresa, así como innovadores servicios y productos al cliente.</p></td>
-					</tr>
+                  Contribuir en la transformación de la forma de trabajar de nuestros clientes, proporcionándoles herramientas y soluciones que permitan consolidar el crecimiento y desarrollo de su empresa, así como innovadores servicios y productos al cliente.</p></td>
+              </tr>
 
-					<tr >
-					<td><p class="TableHMVLi" >VISIÓN <br> <br> 
+              <tr>
+              <td><p class="TableHMVLi" >VISIÓN <br> <br> 
 
-Se basa en 3 pilares fundamentales: profesionalismo, trayectoria y consultoría. Mejorar la calidad de vida de nuestros clientes. Ser reconocidos como la empresa líder en aplicaciones de gestión avanzada ERP eficientes y que aumenten la productividad, transformando los procesos de control en procesos generadores de utilidad para nuestros clientes. </p> </td>
-					</tr>
+                  Se basa en 3 pilares fundamentales: profesionalismo, trayectoria y consultoría. Mejorar la calidad de vida de nuestros clientes. Ser reconocidos como la empresa líder en aplicaciones de gestión avanzada ERP eficientes y que aumenten la productividad, transformando los procesos de control en procesos generadores de utilidad para nuestros clientes. </p> </td>
+              </tr>
 
-				
-				</table>
-					</div>	
-					</div>
- 
+        
+            </table>
+          </div>  
+        </div>
+
+
+      </div>
    </div>
 </section>
 
-<!--Presencia Nacional-->
-<!--Presencia Nacional-->
-<!--Presencia Nacional-->
+<!-- Recuadro Presencia Nacional-->
+
 <section class="PrNa">
-	
 	<div class="container"> 
-	    <div class="ImgPrNa row">
+	    
+      <div class="col-xs-12 col-sm-12 col-md-12">  
+      <div class="FondoPrNa row">
+          <p class="TitlePrNa">PRESENCIA NACIONAL</p>
+      </div>
+      
 
-	    	<img src="img/PrecenciaNacional.jpg" class="img-responsive"> 
-	    	<p class="TitlePrNa">PRESENCIA NACIONAL</p>
-	    </div>
-	    <div class=" DESPrNa row">
-	    <p  class="DesPrNa">MBA3 ha logrado una rápida expansión tanto en México como en el resto de Latinoamericana, gracias a la excelente oferta de valor en el producto ERP, y a su red de distribuidores certificados, quienes extienden la filosofía y procesos de implementación, específicamente diseñados y dirigidos a la empresa pequeña y mediana, con el más alto nivel profesional, asegurando la calidad y satisfacción de sus clientes.</p>
-	    	
-	    </div>
-	    <div class=" row">
-	    <br>
-	    	<p  class="ImpPrePrNa">MBA3 cuenta con implementaciones y presencia exitosa en 4 estados:</p>
-	    </div>
-	    <div class="row">
+      <div class=" DESPrNa row">
+      <p  class="DesPrNa">MBA3 ha logrado una rápida expansión tanto en México como en el resto de Latinoamericana, gracias a la excelente oferta de valor en el producto ERP, y a su red de distribuidores certificados, quienes extienden la filosofía y procesos de implementación, específicamente diseñados y dirigidos a la empresa pequeña y mediana, con el más alto nivel profesional, asegurando la calidad y satisfacción de sus clientes.</p>
+      </div>
 
-	    <div class="col-xs-6">
-	    <div class="TableEsPrNa">
-	         <div class="table-responsive">
-	         
-				    <table class=" table  table-condensed">
-					<tr>
-						<td><div class="TableEsPrNaEs">MÉXICO</div></td>
-					</tr>
+  <!--Estados donde trabaja mba3-->
+      <div class="row ">
+      <br>
+        <p  class="TitleEstPrePrNa"> <span class="InicioTitle"> MBA3 </span>cuenta con implementaciones y presencia exitosa en 4 estados:</p>
+      </div>
+      
+      <div class="row">
+      <div class="  col-md-6">
+            <div class="TableEsPrNa">
+           
+           
+                      <table class=" table table-hover table-condensed ">
+                          <tr>
+                            <td><div class="TableEsPrNaEs">MÉXICO</div></td>
+                          </tr>
 
-					<tr>
-						<td><div class="TableEsPrNaEs">MONTERREY</div></td>
-					</tr>
+                          <tr>
+                            <td><div class="TableEsPrNaEs">MONTERREY</div></td>
+                          </tr>
 
-					<tr>
-					    <td><div class="TableEsPrNaEs">QUERÉTARO</div></td>
-					</tr>
+                          <tr>
+                              <td><div class="TableEsPrNaEs">QUERÉTARO</div></td>
+                          </tr>
 
-					<tr>
-					    <td><div class="TableEsPrNaEs">SAN LUIS POTOSÍ</div></td>
-					</tr>
-
-				
-			        </table>
-			</div>
-		</div>
+                          <tr>
+                              <td><div class="TableEsPrNaEs">SAN LUIS POTOSÍ</div></td>
+                          </tr>
+                      </table>
+           
+            </div>
         </div>
-        <div class="col-xs-6">
-				<img src="img/mapa.png " class="img-responsive ">
-
-		</div>
-	    </div>
 
 
-		
-	</div>
-</section>
-<!-- DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP-->
-<!-- DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP-->
-<!-- DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP-->
+              <div class="imgPrNa col-md-6">
+              <img src="img/mapa.png " class="img-responsive ">
 
-<section class="DePoMbErp">
-
-    <div class="container">
-
-
-        <div class="DePoMbErpPo row">
-        	<p>DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP</p>
-        </div>
-        <div class="DePoMbErpInfor row">
-        	<p>¡Solicita mayor información acerca del ERP más avanzado al alcance de tu empresa!</p>
-        </div>
-        <div class= "buttDePoMbErp row">
-        	<button type="button" class="btn btn-success btn-lg ">Solicita un demo gratuito</button>
-        </div>
-        <div class="ImgDePoMbErp row">
-         <div class="col-xs-6 col-sm-4">
-           <img src="img/MBA3_EnterpriseEdition_Medium.png" class="img-responsive" >
-         </div>
-          <div class="col-xs-6 col-sm-4">
-           <img src="img/MBA3_AvantEdition_Medium.png" class="img-responsive">
-         </div>
-          <div class="col-xs-6 col-sm-4">
-           <img src="img/MBA3_FirstEdition_Medium_.png" class="img-responsive"> 
-         </div>
-         </div>
-    	
+              </div>
+            
+      </div>
     </div>
-	
+  </div>
 </section>
-<!--DerRes-->
-<!--DerRes-->
-<!--DerRes-->
 
+<!--DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP-->
+<section class="ConErp">
+    <div class="container">
+               <div class="col-xs-12 col-sm-12    col-md-12 row">
+                  <p class="DesMbErpConErp visible-md visible-lg">Descubre por ti mismo el potencial de MBA3 ERP<br>
+                     ¡Solicita mayor información acerca de MBA3!</p>
+                     <p class="DesMbErpConErpXS visible-xs visible-sm">Descubre por ti mismo el potencial de MBA3 ERP<br>
+                     ¡Solicita mayor información acerca de MBA3!</p>
+                
+               </div>
+              <div class="row btInf">
+                  <button type="button" class="btn btn-success btn-lg ">Solicita mas informacion</button>
+               </div>
+              <div class=" VerConErp row">
+                 <div class="col-xs-6 col-sm-6 col-md-4">
+                     <img src="img/MBA3_EnterpriseEdition_Medium.png" class=" img-responsive" >
+                 </div>
+                 <div class="col-xs-6 col-sm-6  col-md-4">
+                     <img src="img/MBA3_AvantEdition_Medium.png" class=" img-responsive">
+                 </div>
+                 <div class="col-xs-12 col-sm-12  col-md-4">
+                     <img src="img/MBA3_FirstEdition_Medium_.png" class="center-block img-responsive"> 
+                 </div>
+             </div>
+       </div>
+</section>
 
+<section class="EstaErp animated fadeInUp"">  
+       
+       <div class="container">
+            <div class="col-md-4"> 
+                <p class=" TitulosEstaErp "><span class="fa fa-users fa-3x" aria-hidden="true"></span><br> Más de 20,000 <br>
+                Usuarios Satisfechos</p>
+            </div>
+            <div class="col-md-4">
+            <p class="TitulosEstaErp"><span class="fa fa-font-awesome fa-3x" aria-hidden="true"></span><br>
+                                    En 8 países <br> 
+                                   de Latinoamérica</p>
+            </div>
+            <div class="col-md-4">
+            <p class="TitulosEstaErp"><span class="fa fa-thumbs-up fa-3x" aria-hidden="true"></span><br> Más de 20 años <br>
+               de Respaldo Total</p>
+
+           </div>
+         
+       </div>
+  
+</section>
+
+<!--Recuadro de estados donde trabaja mba3-->
+<section class="animated fadeInUp">
+    <div class="container">
+    <div class="col-md-12">
+        <div class="col-md-8 col-md-offset-2">
+               <p class="col-md-3 TitulosEstErp"><small> MÉXICO</small></p>
+               <p class="col-md-3 TitulosEstErp"><small> MONTERREY</small></p>
+               <p class="col-md-3 TitulosEstErp"><small> QUERÉTARO</small></p>
+               <p class="col-md-3 TitulosEstErp"><small> SAN LUIS POTOSÍ</small></p>
+             
+        </div>
+    </div>
+           
+    </div>
+</section>
+<!--pie de pagina-->
 <footer  class="DerRes">
-
-    
-		 <div class="imgDerRes">
-		 <img src="img/gray.jpg" class=" img-responsive">
-     <p class="DerResTextSu">Subir</p>
-		 <p class="DerResText">Derechos Reservados ® MBA3 ©2017</p>
-		 </div>
+     <div class="container">
+     
+     <p class="DerResTextSu col-xs-12 col-sm-12 col-md-6 ">MBA3 SOFTWARE SOLUTIONS - 2017</p>
+     <p class="DerResTextSu col-xs-12 col-sm-12 col-md-6 ">
+     TODOS LOS DERECHOS RESERVADO</p>
+     </div>
+     <div class="arriba">
+     <span class="ir-arriba fa fa-chevron-up fa-3x" aria-hidden="true"></span>
+     </div>
+     
 </footer>
 
 

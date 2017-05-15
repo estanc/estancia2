@@ -2,13 +2,7 @@
 	padding: 0;
 	margin:0;
 }
-.QuienesSomos{
-	width: 100%;
-	
-}
-/*<!--Redes Socilaes-->
-<!--Redes Socilaes-->
-<!--Redes Socilaes-->*/
+/*<!--Redes Socilaes-->*/
 
 .red {
     position: fixed;
@@ -56,15 +50,22 @@
     background: #00bcf2;
     padding: 10px 40px;
 }
+/*Recuadro de Quienes somos*/
 
-/*<!--HISTORIA,MISION Y VISION-->
-<!--HISTORIA,MISION Y VISION-->
-<!--HISTORIA,MISION Y VISION-->*/
-.ImgPrNa,
-.ImgHMV,
-.ImgQS{
+.QuienesSomos{
 	width: 100%;
-	position:relative; 
+	margin-top: 60px;
+}
+.HiMiVi{
+    margin-top: 40px;
+}
+
+/*<!--HISTORIA,MISION Y VISION-->*/
+.FondoPrNa,
+.FondoHMV,
+.FondoQS{
+	width: 100%;
+
 }
 .TitlePrNa,
 .TitleHMV,
@@ -75,9 +76,7 @@
     color: white; 
     text-align: center;
     padding: 18px;
-    position: absolute;
-    bottom: 0;
-    opacity: 0.7;
+   
 }
 .PrNa,
 .DESPrNa,
@@ -93,95 +92,88 @@
 	  font: 14px Arial;
       color: #585858;
 }
-/*<!--Presencia Nacional-->
-<!--Presencia Nacional-->
-<!--Presencia Nacional-->*/
+/*<!--Presencia Nacional-->*/
 .PrNa{
 	width: 100%;
 }
-.ImpPrePrNa{
-    padding: 50px;
+.TitleEstPrePrNa{
+    font:18px Arial;
+    margin: 50px;
     text-align: left;
+    color:#6E6E6E;
+}
+.InicioTitle{
+font:18px Arial;
+    
     color: #0174DF;
 }
 .TableEsPrNa{
-	padding-top: 100px;
+	margin-top:50px;
 }
 .TableEsPrNaEs{
 	padding: 10px;
     text-align: center;
     color: #0174DF;
 }
-/*<!-- DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP-->
-<!-- DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP-->
-<!-- DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP-->*/
-.DePoMbErp{
-	width: 100%;
-	margin-top: 50px;
-}
-.DePoMbErpPo{
-	font:22px  Arial;
-	text-align: center;
-	color:#1C1C1C; 
-}
-.DePoMbErpInfor{
-	text-align: center;
-	font:25px Arial;
-	color: #848484;
-}
-.buttDePoMbErp{
-	padding-top: 50px;
-text-align: center;
+/*<!--DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP-->
+*/
+.ConErp{
+      background:#EEEDED;
+      width: 100%;
+      margin-top: 50px;
+      padding: 20px;
 }
 
-.ImgDePoMbErp{
-	padding-top: 50px;
+.DesMbErpConErp{
+    text-align: center;
+   
+    color: #424242;
+    font: 25px Arial;
+
+}
+.DesMbErpConErpXS{
+     text-align: center;
+   
+    color: #424242;
+    font: 20px Arial;
+}
+ .VerConErp{
+  margin-top: 40px;
+
+ }
+
+ /*Estadisticas*/
+
+ .EstaErp{
+     width:100%;
+     background:transparent;
+     display: block;
+     padding: 30px;
+
 }
 
-/*<!--DerRes-->
-<!--DerRes-->
-<!--DerRes-->*/
+.TitulosEstaErp{
+    font: 15px Arial;
+    color: #0470AE;
+    text-align: center;
+}
+.EstErp{
+    margin-top: 80px;
+}
+.TitulosEstErp{
+    font: 18px Arial;
+    color: #0470AE;
+    text-align: center;
+}
+/*Pie de pagina*/
 
 .DerRes{
-	width: 100%;
-	margin-top:  50px;
+  margin-top:  50px;
+}
 
-}
-.imgDerRes{
- 
-   width: 100%;
-   position: relative;
-}
-.DerResText{
 
-    width: 95%;
-	
-	font:15px Times;
-    color: white; 
-    text-align: right;
-   
-    position: absolute;
-    bottom: 0;
-    
-  
-}
 .DerResTextSu{
-     width: 100%;
-  
-  font:15px Times;
-    color: white; 
-    text-align: right;
-   
-    position: absolute;
-   top: 10px;
-}
-.DerResTextSu{
-     width: 100%;
-  
-  font:15px Times;
-    color: white; 
-    text-align: right;
-   
-    position: absolute;
-   top: 10px;
+    font:15px Arial;
+    color:#848484; 
+    text-align: center;
 }

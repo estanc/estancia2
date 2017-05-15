@@ -5,18 +5,30 @@ header{
 }
 
 /*CSS de la navbar*/
+.btnInicio{
+    font: 15px Arial;
+    color:#58ACFA;
+}
+
 .btnNav{
-  color:#58ACFA;
+  font: 15px Arial;
+  color:#424242;
   padding-left: 30px; 
   padding-top: 30px;
 }
-.btnInicio{
-
+.btnDrop{
+  font: 13px Arial;
+  color:#424242;
 }
 
 .navbar-default {
   background-color: white;
-  border-color: ;
+    
+  
+
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+   
+
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -27,7 +39,7 @@ header{
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: #777;
+  
 }
 .navbar-default .navbar-nav > li > a {
   color: #777;
@@ -36,6 +48,7 @@ header{
 .navbar-default .navbar-nav > li > a:focus {
   color: #333;
   background-color: transparent;
+
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -197,6 +210,9 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     text-decoration: none;
 }
 /*SLIDESHOW----------------*/
+.slideshow{
+  margin-top: 50px;
+}
 .TitleSHSM {
     font: 25px Arial;
     color:black;
@@ -489,20 +505,7 @@ width: 100%;
 }
 
 
-/*testimonios*/
-/*testimonios*/
-/*testimonios*/
 
-.testimonio{
-  width: 100% ;
-}
-
-.titleTes{
-  text-align: center;
-  font:25px Arial;
-  color: #424242;
-
-}
 /*APPS moviles*/
 /*APPS moviles*/
 /*APPS moviles*/
@@ -524,18 +527,17 @@ padding-top: 50px;
   font:19px Arial;
     color: #585858;
 }
-/*Segundo nivel de APPS moviles*/
+
 .ModERP{
   padding-top: 50px;
   font:15px Arial;
   color: #585858;
 }
 
-/*Tercer nivel de APPS moviles*/
 .ErpSmPh{
   padding-top: 50px;
 }
-/*Cuarto nivel de APPS moviles*/
+
 .btInf{
   text-align: center;
   padding-top: 50px;
@@ -641,7 +643,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', end
   color: #424242;
 }
 
-
+/*Boton arriba*/
+.arriba{
+  text-align: center;
+}
+.ir-arriba{
+ 
+  padding: 20px;
+  background: white ;
+  border-radius:25px ;
+  color: #0470AE;
+  cursor: pointer;
+  margin-top: 50px;
+}
 
  
       
