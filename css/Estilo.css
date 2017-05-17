@@ -5,16 +5,18 @@ header{
 }
 
 /*CSS de la navbar*/
+.Navbar{
+  margin-top: 20px;
+}
 .btnInicio{
-    font: 15px Arial;
+   
     color:#58ACFA;
 }
 
 .btnNav{
   font: 15px Arial;
   color:#424242;
-  padding-left: 30px; 
-  padding-top: 30px;
+  
 }
 .btnDrop{
   font: 13px Arial;
@@ -23,10 +25,7 @@ header{
 
 .navbar-default {
   background-color: white;
-    
-  
-
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
    
 
 }
@@ -517,14 +516,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88bfe8', end
 padding-top: 50px;
 }
 .TextRightMovil{
-  font:19px Arial;
+   font:19px Arial;
     color: #585858;
+    text-align: center;
+    
 }
 
-.ModERP{
-  padding-top: 50px;
+.CompERP{
+  margin-top: 50px;
   font:15px Arial;
   color: #585858;
+ 
+  
 }
 
 .ErpSmPh{
@@ -599,7 +602,7 @@ padding-top: 50px;
 .TextQlikViewP{
   padding-left: 10px;
   font:15px Arial;
-  color: #585858
+  color: #585858;
 }
 .EnNeg{
    padding-top: 35px;
@@ -616,28 +619,67 @@ padding-top: 50px;
 .ComEnNeg{
   background:#EEEDED;
 } 
-/*<!--Potencial de Mba erp-->
-<!--Potencial de Mba erp-->
-<!--Potencial de Mba erp-->*/
-.PoMe{
-  width: 100%;
-  margin-top: 80px;
- /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
-background: rgb(245,246,246); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(184,186,198,1) 49%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to top, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
-
-
-}
-.PomeTitle{
- text-align: center;
-  font: 35px Arial;
-  color: #424242;
+/*<!--DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP-->
+*/
+.ConErp{
+      background:#EEEDED;
+      width: 100%;
+      margin-top: 50px;
+      padding: 20px;
 }
 
-/*Boton arriba*/
+.DesMbErpConErp{
+    text-align: center;
+   
+    color: #424242;
+    font: 20px Arial;
+
+}
+.DesMbErpConErpXS{
+     text-align: center;
+     color: #424242;
+     font: 18px Arial;
+}
+ .VerConErp{
+  margin-top: 40px;
+
+ }
+
+ /*Estadisticas*/
+
+ .EstaErp{
+     width:100%;
+     background:transparent;
+     display: block;
+     padding: 30px;
+
+}
+
+.TitulosEstaErp{
+    font: 15px Arial;
+    color: #0470AE;
+    text-align: center;
+}
+.EstErp{
+    margin-top: 80px;
+}
+.TitulosEstErp{
+    font: 18px Arial;
+    color: #0470AE;
+    text-align: center;
+}
+/*Pie de pagina*/
+
+.DerRes{
+  margin-top:  50px;
+}
+
+
+.DerResTextSu{
+    font:15px Arial;
+    color:#848484; 
+    text-align: center;
+}
 .arriba{
   text-align: center;
 }
@@ -650,9 +692,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', end
   cursor: pointer;
   margin-top: 50px;
 }
-
- 
-      
-
-
-       

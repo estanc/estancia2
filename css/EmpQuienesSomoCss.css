@@ -2,59 +2,12 @@
 	padding: 0;
 	margin:0;
 }
-/*<!--Redes Socilaes-->*/
 
-.red {
-    position: fixed;
-    top: 200px;
-    z-index: 100;
-    left: 0;
-}
-
-#facebook a {
-    background: #3b5998;
-    padding: 10px 25px;
-    color: #fff;
-    text-decoration: none;
-    width: 55px;
-}
-
-
-#facebook a:hover {
-    background: #4285f4;
-    padding: 10px 40px;
-}
-
-#youtube a {
-    background: #bb0000;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    width: 55px;
-}
-
-#youtube a:hover {
-    background: #ea4335;
-    padding: 10px 40px;
-}
-
-#twitter a {
-    background: #55acee;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    width: 55px;
-}
-
-#twitter a:hover {
-    background: #00bcf2;
-    padding: 10px 40px;
-}
 /*Recuadro de Quienes somos*/
 
 .QuienesSomos{
 	width: 100%;
-	margin-top: 60px;
+	margin-top: 110px;
 }
 .HiMiVi{
     margin-top: 40px;
@@ -72,7 +25,7 @@
 .TitleQS{
 	width: 100%;
 	background: #0B4C5F;
-	font:25px Times;
+	font:18px Arial;
     color: white; 
     text-align: center;
     padding: 18px;
@@ -89,7 +42,7 @@
 .TableHMVLi,
 .TableQuiSomosLi{
 	
-	  font: 14px Arial;
+	  font: 15px Arial;
       color: #585858;
 }
 /*<!--Presencia Nacional-->*/
@@ -100,10 +53,10 @@
     font:18px Arial;
     margin: 50px;
     text-align: left;
-    color:#6E6E6E;
+    color: #424242;
 }
 .InicioTitle{
-font:18px Arial;
+
     
     color: #0174DF;
 }
@@ -111,69 +64,8 @@ font:18px Arial;
 	margin-top:50px;
 }
 .TableEsPrNaEs{
+    font: 15px Arial;
 	padding: 10px;
     text-align: center;
     color: #0174DF;
-}
-/*<!--DESCUBRE POR TI MISMO EL POTENCIAL DE MBA3 ERP-->
-*/
-.ConErp{
-      background:#EEEDED;
-      width: 100%;
-      margin-top: 50px;
-      padding: 20px;
-}
-
-.DesMbErpConErp{
-    text-align: center;
-   
-    color: #424242;
-    font: 25px Arial;
-
-}
-.DesMbErpConErpXS{
-     text-align: center;
-   
-    color: #424242;
-    font: 20px Arial;
-}
- .VerConErp{
-  margin-top: 40px;
-
- }
-
- /*Estadisticas*/
-
- .EstaErp{
-     width:100%;
-     background:transparent;
-     display: block;
-     padding: 30px;
-
-}
-
-.TitulosEstaErp{
-    font: 15px Arial;
-    color: #0470AE;
-    text-align: center;
-}
-.EstErp{
-    margin-top: 80px;
-}
-.TitulosEstErp{
-    font: 18px Arial;
-    color: #0470AE;
-    text-align: center;
-}
-/*Pie de pagina*/
-
-.DerRes{
-  margin-top:  50px;
-}
-
-
-.DerResTextSu{
-    font:15px Arial;
-    color:#848484; 
-    text-align: center;
 }
