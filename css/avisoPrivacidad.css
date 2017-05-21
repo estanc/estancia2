@@ -1,100 +1,9 @@
-.tablespace {
-    padding-top: 100px;
+.AvisoPrivacidad{
+    margin-top: 60px;
 }
-
-.MARG {
-    padding-top: 20px;
-}
-
-.MBA3 {
-    padding: 50px;
-    text-align: left;
-    color: #0174DF;
-}
-
-.Name {
-    padding: 10px;
-    text-align: center;
-    color: #0174DF;
-}
-
-.mar {
-    padding-top: 300px;
-    width: 100%;
-}
-
-.m {
-    width: 100%;
-    position: relative;
-}
-
-.MsUBIR {
-    width: 98%;
-    font: 15px Times;
-    color: white;
-    text-align: right;
-    top: 5;
-    position: absolute;
-    bottom: 30px;
-}
-
-.der {
-    width: 94%;
-    font: 15px Times;
-    color: white;
-    text-align: right;
-    top: 5;
-    position: absolute;
-    bottom: 0px;
-}
-
-.red {
-    position: fixed;
-    top: 200px;
-    z-index: 100;
-    left: 0;
-}
-
-#facebook a {
-    background: #3b5998;
-    padding: 10px 25px;
-    color: #fff;
-    text-decoration: none;
-    width: 55px;
-}
-
-#facebook a:hover {
-    background: #4285f4;
-    padding: 10px 40px;
-}
-
-#youtube a {
-    background: #bb0000;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    width: 55px;
-}
-
-#youtube a:hover {
-    background: #ea4335;
-    padding: 10px 40px;
-}
-
-#twitter a {
-    background: #55acee;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    width: 55px;
-}
-
-#twitter a:hover {
-    background: #00bcf2;
-    padding: 10px 40px;
-}
-
 .titAv {
+    font:15px Arial;
+    color: #424242;
     margin-top: 50px;
     padding: 10px;
     text-align: center;
@@ -103,9 +12,11 @@
 }
 
 .cntAv{
-    margin-top: 30px;
-    text-align: justify;
-    width: 100%;
+     font:15px Arial;
+     color: #585858;
+     margin-top: 30px;
+     text-align: justify;
+     width: 100%;
 }
 .sbtAv{
     padding-left: 20px;
@@ -113,40 +24,3 @@
 
 }
 
-/*<!--DerRes-->
-<!--DerRes-->
-<!--DerRes-->*/
-
-.DerRes{
-  width: 100%;
-  margin-top:  50px;
-
-}
-.imgDerRes{
- 
-   width: 100%;
-   position: relative;
-}
-.DerResText{
-
-    width: 95%;
-  
-  font:15px Times;
-    color: white; 
-    text-align: right;
-   
-    position: absolute;
-    bottom: 0;
-    
-  
-}
-.DerResTextSu{
-     width: 100%;
-  
-  font:15px Times;
-    color: white; 
-    text-align: right;
-   
-    position: absolute;
-   top: 10px;
-}

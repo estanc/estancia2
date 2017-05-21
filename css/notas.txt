@@ -1,0 +1,6 @@
+texto
+font:15px Arial;
+color: #585858;
+titulo:
+font: 18px Arial;
+color: #424242;
