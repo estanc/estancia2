@@ -1,9 +1,9 @@
 .EresUsuario{
-	margin-top: 50px;
+	margin-top: 110px;
 }
 .TitleEresUsuario{
 	text-align: center;
-  font: 25px Arial;
+  font:Arial;
   color: #424242;
 }
 .TextEresUsuario{
@@ -20,13 +20,13 @@
 }
 .TitleGraPro{
     text-align: center;
-	font: 25px Arial;
+	font:Arial;
 	color: #424242;
 }
 .SubTitleGraPro{
 	margin-top: 50px;
 	text-align: center;
-	font: 20px Arial;
+	font:Arial;
 	color: #424242;
 }
 .TextGraPro{
@@ -40,56 +40,4 @@
 }
 .DesErp{
 	margin-top: 50px;
-}
-/*conocer erp*/
-.ConErp{
-      background:#EEEDED;
-      width: 100%;
-      margin-top: 50px;
-}
-/*Descubrir mba erp */
-.DesMbErpConErp{
-    text-align: center;
-    padding: 60px;
-    color: #424242;
-    font: 25px Arial;
-
-}
- .VerConErp{
- 	margin-top: 50px;
- }
-
- .EstaErp{
-     width:100%;
-     background:transparent;
-     display: block;
-     padding: 30px;
-
-}
-
-.TitulosEstaErp{
-    font: 15px Arial;
-    color: #0470AE;
-    text-align: center;
-}
-.EstErp{
-    margin-top: 80px;
-}
-.TitulosEstErp{
-    font: 18px Arial;
-    color: #0470AE;
-    text-align: center;
-}
-/*<!--DerRes-->
-<!--DerRes-->
-<!--DerRes-->*/
-
-.DerRes{
-  margin-top:  50px;
-}
-
-
-.DerResTextSu{
-    font:15px Arial;
-    color:#848484; 
 }
