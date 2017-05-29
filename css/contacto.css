@@ -1,3 +1,8 @@
+.ContactoBPMS{
+    margin-top:110px;
+}
+
+
 .contact{
     text-align: center;
     color:#9D9A9A;
@@ -11,85 +16,3 @@
     margin-top: 15px;
 }
 
-.red {
-    position: fixed;
-    top: 200px;
-    z-index: 100;
-    left: 0;
-}
-
-#facebook a {
-    background: #3b5998;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    width: 55px;
-}
-
-#facebook a:hover {
-    background: #4285f4;
-    padding: 10px 40px;
-}
-
-#youtube a {
-    background: #bb0000;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    width: 55px;
-}
-
-#youtube a:hover {
-    background: #ea4335;
-    padding: 10px 40px;
-}
-
-#twitter a {
-    background: #55acee;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    width: 55px;
-}
-
-#twitter a:hover {
-    background: #00bcf2;
-    padding: 10px 40px;
-}
-/*<!--DerRes-->
-<!--DerRes-->
-<!--DerRes-->
-
-.DerRes{
-  width: 100%;
-  margin-top:  50px;
-
-}
-.imgDerRes{
- 
-   width: 100%;
-   position: relative;
-}
-.DerResText{
-
-    width: 95%;
-  
-  font:15px Times;
-    color: white; 
-    text-align: right;
-   
-    position: absolute;
-    bottom: 0;
-    
-  
-}
-.DerResTextSu{
-     width: 95%;
-  
-  font:15px Times;
-    color: white; 
-    text-align: right;
-   
-    position: absolute;
-   top: 10px;
-}*/
